@@ -1,6 +1,10 @@
 const Thought = require("../model/Thought");
 
 module.exports = {
+    async dashboard(req, res) {
+        return res.render("thoughts/dashboard")
+    },
+    
     async findAllThoughts(req, res) {
         const thoughts = await Thought.findAll({ raw: true});
         
