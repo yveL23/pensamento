@@ -22,3 +22,16 @@ body{
 main{
     flex: 1;
 }
+
+footer {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+    border-top: 2px solid #e4f1ff;
+    padding: 16px;
+}
+
+footer p {
+    text-align: center;
+}
