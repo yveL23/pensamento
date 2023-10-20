@@ -6,9 +6,9 @@ module.exports = {
     host: "localhost",
     username: "aluno_medio",
     password: "@lunoSenai23.",
-    database: "thoughts",
+    database: "thoughts_system",
     define: {
-        timestamps: false,
+        timestamps: true,
         underscored: true
     }
 }
