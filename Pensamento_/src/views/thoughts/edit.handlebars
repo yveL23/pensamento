@@ -1,0 +1,28 @@
+<section class="register-thought">
+    <div class="header">
+
+        <div class="title">
+            <h2>Editar Pensamento:</h2>
+        </div>
+
+        <div class="form">
+            {{#each result}}
+            <form action="/thoughts/update/{{this.id}}" method="POST">
+                <div class="form-field">
+                    <label for="title">Título:</label>
+                    <input type="text" name="title" value="{{this.title}}">
+                </div>
+
+                <div class="form-field">
+                    <label for="description">Descrição:</label>
+                    <input type="text" name="description" value="{{this.description}}">
+                </div>
+
+                <div class="form-button">
+                    <button class="form-button" type="submit">Editar Pensamento</button>
+                </div>
+            </form>
+            {{/each}}
+        </div>
+    </div>
+</section>

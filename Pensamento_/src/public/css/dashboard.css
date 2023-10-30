@@ -41,7 +41,7 @@
     
 }
 
-.dashboard .button-create a:hover {
+.button-create a:hover {
     background-color: #068fff;
     color: white;
 }
@@ -53,13 +53,13 @@
     padding: 32px 0;
 }
 
-.dashboard .content .subtitle p {
+ .content .subtitle p {
     color: white;
     font-size: 20px;
     font-weight: bold;
 }
 
-.dashboard .content .thoughts-list {
+.thoughts-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,25 +70,42 @@
     padding-bottom: 16px;
 }
 
-.dashboard .content .thoughts-list p{
+.thoughts-list p{
     color: #068fff;
     font-weight: bold;
 }
 
-.dashboard .content .thoughts-list .buttons {
+.thoughts-list .buttons {
     display: flex;
     gap: 16px;
 }
 
-.dashboard .content .thoughts-list .buttons a{
+.thoughts-list .buttons a{
     text-decoration: none;
     border: 2px solid #068fff;
     padding: 8px;
     color: #068fff;
 }
 
-.dashboard .content .thoughts-list .buttons a:hover {
+.thoughts-list .buttons a:hover {
     background-color: #068fff;
     color: white;
 }
 
+.thoughts-list .buttons form button {
+    background: none;
+    border: 2px solid #068fff;
+    padding: 8px;
+
+    color: #068fff;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.thoughts-list .buttons form button:hover {
+    background-color: #068fff;
+    color: white;
+}
